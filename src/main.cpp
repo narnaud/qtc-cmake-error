@@ -1,9 +1,6 @@
 #include <QDebug>
 
-int main(int argc, int **argv) 
-{
-    Q_UNUSED(argc)
-    Q_UNUSED(argv)
-    qDebug() << "Hello World!";
+int main(void) {
+    qDebug() << "Hello world from test_app\n";
     return 0;
 }
